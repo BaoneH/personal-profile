@@ -1,6 +1,6 @@
 # PERSONAL PROFILE
-- [ABOUT]
-- [SKILLS]
-- [EDUCATION]
-- [CONTACT]
+- [ABOUT](index.html)
+- [SKILLS](index.html)
+- [EDUCATION](index.html)
+- [CONTACT](index.html)
 
