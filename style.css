@@ -1,19 +1,41 @@
-body {
-font - family : Arial , sans - serif;
+.navbar {
+	border-bottom: 2px solid rgba(0, 0, 0.1);
+	font-family: "Six Caps";
 }
 
-h2 {
-color : #007 bff ;
+/* Dark Mode */
+body.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
 }
  
-ul {
-list - style - type : none ;
-padding : 0;
+body.dark-mode .navbar {
+  background-color: #1a1a1a !important;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+}
+ 
+body.dark-mode .bg-light {
+  background-color: #1a1a1a !important;
+  color: #ffffff;
+}
+ 
+body.dark-mode .form-control {
+  background-color: #333;
+  color: #fff;
+  border-color: #555;
+}
+ 
+/ *Profile Picture Animation* /
+.profile-img {
+  transition: transform 0.3s ease-in-out;
+}
+ 
+.profile-img:hover {
+  transform: scale(1.1);
 }
 
-ul li {
-background : # f8f9fa ;
-padding : 10 px ;
-margin : 5 px 0;
-border - left : 5 px solid #007 bff ;
-}
+footer {
+	padding: 10px;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
